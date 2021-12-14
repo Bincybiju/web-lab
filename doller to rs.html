@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <script>
+            function convert()
+            {
+                var a=document.getElementById('doller').value;
+                rupees=a*74;
+                document.write("Rupees="+rupees);
+            }
+        </script>
+    </head>
+    <body>
+        <form action="">
+            <label for="">Doller($) :</label>
+            <br>
+            <input type="number" id="doller">
+            <br>
+            <br>
+            <button onclick="convert()">convert</button>
+        </form>
+    </body>
+</html>
